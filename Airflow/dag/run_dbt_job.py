@@ -13,7 +13,7 @@ with DAG(
     run_dbt_job = DbtCloudRunJobOperator(
         task_id="run_dbt_job",
         dbt_cloud_conn_id="my_conn",  
-        job_id=...,      
+        job_id='EEUL5FJPGR3UM1B5AZHNPS3K',      
         check_interval=10,
         timeout=300,
     )
