@@ -20,8 +20,8 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
 
 
 ## snowflake_project:
-  outputs:
-    dev:
+  - outputs:
+  -   dev:
      -  account: your_snowflake_account
      -  database: finance_db
      -  user: dbt_user
