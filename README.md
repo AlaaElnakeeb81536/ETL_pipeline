@@ -22,14 +22,14 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
 ## snowflake_project:
   - outputs:
   -   dev:
-     -  account: your_snowflake_account
-     -  database: finance_db
-     -  user: dbt_user
-     -  password: your_password
-     -  warehouse: finance_wh
-     -  role: ACCOUNTADMIN
-     -  schema: raw
-     -  type: snowflake
+     - account: your_snowflake_account
+     - database: finance_db
+     - user: dbt_user
+     - password: your_password
+     - warehouse: finance_wh
+     - role: ACCOUNTADMIN
+     - schema: raw
+     - type: snowflake
 -   target: dev
 - Run dbt Models
 
