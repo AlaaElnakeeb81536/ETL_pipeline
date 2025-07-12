@@ -12,11 +12,11 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
    
 ## Project Structure
  snowflake_data_project/
-- │──  models/                  # dbt models (staging, marts)
-- │──  dags/                    # Airflow DAGs (for scheduling)
-- │──  logs/                    # Airflow logs
-- │──  dbt_project.yml          # dbt project config file
-- │──  README.md                # Project documentation
+- │──  models/                                ( # dbt models (staging, marts))
+- │──  dags/                                  (  # Airflow DAGs (for scheduling))
+- │──  logs/                                  (   # Airflow logs)
+- │──  dbt_project.yml                        ( # dbt project config file)
+- │──  README.md                              ( # Project documentation)
 
 
 ## snowflake_project:
