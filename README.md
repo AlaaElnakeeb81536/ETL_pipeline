@@ -3,7 +3,7 @@
 ## Overview
 This project is a complete data engineering pipeline using dbt (Data Build Tool), Snowflake (Data Warehouse), and Apache Airflow (Orchestration Tool). It covers data ingestion, transformation, and scheduling in a structured and scalable manner.
 
- i took that messy CSV file and turned it into a clean, queryable dataset ready for reporting. I used Snowflake for warehousing, dbt for cleaning and transformation, and Power BI to build out a dashboard.
+ ## I took that messy CSV file and turned it into a clean, queryable dataset ready for reporting. I used Snowflake for warehousing, dbt for cleaning and transformation, and Power BI to build out a dashboard.
 
 ## Tech Stack
 - dbt Core – For data transformation and modeling
