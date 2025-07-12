@@ -9,19 +9,17 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
 - Apache Airflow – Workflow automation and orchestration
 - Python – Scripting and automation
 - Git – Version control
-- 
+   
 ## Project Structure
  snowflake_data_project/
-│──  models/                 # dbt models (staging, marts)
-│──  dags/                   # Airflow DAGs (for scheduling)
-│──  logs/                   # Airflow logs
-│──  seeds/                  # Sample seed data for dbt
-│──  macros/                 # dbt macros
-│──  dbt_project.yml         # dbt project config file
-│──  README.md               # Project documentation
+- │──  models/                 # dbt models (staging, marts)
+- │──  dags/                   # Airflow DAGs (for scheduling)
+- │──  logs/                   # Airflow logs
+- │──  dbt_project.yml         # dbt project config file
+- │──  README.md               # Project documentation
 
 
-snowflake_project:
+## snowflake_project:
   outputs:
     dev:
       account: your_snowflake_account
