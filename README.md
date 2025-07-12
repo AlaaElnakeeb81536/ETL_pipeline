@@ -12,29 +12,29 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
    
 ## Project Structure
  snowflake_data_project/
-- │──  models/                 # dbt models (staging, marts)
-- │──  dags/                   # Airflow DAGs (for scheduling)
-- │──  logs/                   # Airflow logs
-- │──  dbt_project.yml         # dbt project config file
-- │──  README.md               # Project documentation
+- │──  models/                  # dbt models (staging, marts)
+- │──  dags/                    # Airflow DAGs (for scheduling)
+- │──  logs/                    # Airflow logs
+- │──  dbt_project.yml          # dbt project config file
+- │──  README.md                # Project documentation
 
 
 ## snowflake_project:
   outputs:
     dev:
-      account: your_snowflake_account
-      database: finance_db
-      user: dbt_user
-      password: your_password
-      warehouse: finance_wh
-      role: ACCOUNTADMIN
-      schema: raw
-      type: snowflake
-  target: dev
-Run dbt Models
+     -  account: your_snowflake_account
+     -  database: finance_db
+     -  user: dbt_user
+     -  password: your_password
+     -  warehouse: finance_wh
+     -  role: ACCOUNTADMIN
+     -  schema: raw
+     -  type: snowflake
+-   target: dev
+- Run dbt Models
 
-dbt run
-dbt test  # To validate data integrity
-Start Apache Airflow
+- dbt run
+- dbt test  # To validate data integrity
+- Start Apache Airflow
 
-airflow standalone  # Starts the UI & Scheduler
+- airflow standalone  # Starts the UI & Scheduler
