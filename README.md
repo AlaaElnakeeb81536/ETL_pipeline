@@ -17,3 +17,5 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
 - │──  logs/                                  (   Airflow logs)
 - │──  dbt_project.yml                        ( dbt project config file)
 - │──  README.md                              ( Project documentation)
+
+<img width="1774" height="714" alt="image" src="https://github.com/user-attachments/assets/31266801-b27c-4e00-b77f-736e20d80abc" />
