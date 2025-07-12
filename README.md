@@ -5,8 +5,7 @@ This project is a complete data engineering pipeline using dbt (Data Build Tool)
 
  ## I took that messy CSV file and turned it into a clean, queryable dataset ready for reporting. I used Snowflake for warehousing, dbt for cleaning and transformation, and Power BI to build out a dashboard.
  
- <img width="1350" height="700" alt="image" src="https://github.com/user-attachments/assets/4cdfa540-4bc0-45d0-be44-02eb7aecf3dd" />
-
+<img width="1316" height="710" alt="image" src="https://github.com/user-attachments/assets/988fa565-f82b-4ae8-808f-3ba503a62d03" />
 
 ## Tech Stack
 - dbt Core – For data transformation and modeling
